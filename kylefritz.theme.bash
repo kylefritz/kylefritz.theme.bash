@@ -1,6 +1,4 @@
-# Sexy Bash Prompt, inspired by "Extravagant Zsh Prompt"
-# Screenshot: http://cloud.gf3.ca/M5rG
-# Forked from bash-it "sexy" theme
+# bash-it "sexy" theme minus host & user info
 
 if tput setaf 1 &> /dev/null; then
     if [[ $(tput colors) -ge 256 ]] 2>/dev/null; then
