@@ -36,7 +36,7 @@ parse_git_branch () {
 }
 
 function prompt_command() {
-  PS1="\[$GREEN\]\w\[$WHITE\]\$([[ -n \$(git branch 2> /dev/null) ]] && echo \" on \")\[$PURPLE\]\$(parse_git_branch)\[$WHITE\]\n\$ \[$RESET\]"
+  PS1="\[${BOLD}${MAGENTA}\]\[$GREEN\]\w\[$WHITE\]\$([[ -n \$(git branch 2> /dev/null) ]] && echo \" on \")\[$PURPLE\]\$(parse_git_branch)\[$WHITE\]\n\$ \[$RESET\]"
 }
 
 safe_append_prompt_command prompt_command
