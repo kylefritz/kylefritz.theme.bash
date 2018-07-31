@@ -1,2 +1,4 @@
 # kylefritz.theme.bash
-Bash-It theme
+a [Bash-It](http://github.com/Bash-it/bash-it) theme
+
+![kyle fritz theme](/kylefritz.theme.png)
